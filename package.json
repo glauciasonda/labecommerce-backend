@@ -1,0 +1,20 @@
+{
+  "name": "kebab-case",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glauciasonda/labecommerce-backend.git"
+  },
+  "author": "Glaucia Sonda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glauciasonda/labecommerce-backend/issues"
+  },
+  "homepage": "https://github.com/glauciasonda/labecommerce-backend#readme"
+}
