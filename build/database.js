@@ -27,5 +27,18 @@ exports.products = [
         category: "Branco"
     }
 ];
-exports.purchases = [];
+exports.purchases = [
+    {
+        userId: exports.users[0].id,
+        productId: exports.products[0].id,
+        quantify: 2,
+        totalPrice: 300
+    },
+    {
+        userId: exports.users[1].id,
+        productId: exports.products[1].id,
+        quantify: 3,
+        totalPrice: 600
+    }
+];
 //# sourceMappingURL=database.js.map

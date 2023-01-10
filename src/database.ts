@@ -29,4 +29,17 @@ export const products: TProduct[] = [
     
 ]
 
-export const purchases: TPurchase[] = []
+export const purchases: TPurchase[] = [
+    {
+        userId: users[0].id, 
+        productId: products[0].id, 
+        quantify: 2, 
+        totalPrice: 300
+    },
+    {
+        userId: users[1].id, 
+        productId: products[1].id, 
+        quantify: 3, 
+        totalPrice: 600
+    }
+]
